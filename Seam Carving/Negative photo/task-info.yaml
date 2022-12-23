@@ -174,8 +174,11 @@ files:
   visible: true
   learner_created: true
 feedback_link: https://hyperskill.org/learn/step/9016#comment
-status: Solved
+status: Failed
 feedback:
-  message: Congratulations!
-  time: "Mon, 05 Dec 2022 11:38:01 UTC"
+  message: "Exception in test #1\n\njava.lang.NullPointerException: read(File(path))\
+    \ must not be null\n\tat seamcarving.MainKt.loadImage(Main.kt:63)\n\tat seamcarving.MainKt.parseArgs(Main.kt:18)\n\
+    \tat seamcarving.MainKt.main(Main.kt:10)\n\nArguments: -in test/small.png -out\
+    \ test/small-negative.png"
+  time: "Thu, 22 Dec 2022 08:40:05 UTC"
 record: 3
